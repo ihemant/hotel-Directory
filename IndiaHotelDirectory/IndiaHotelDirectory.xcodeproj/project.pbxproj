@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* DubaiHotelDirectoryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DubaiHotelDirectoryAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		2B29254E126463630018E302 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B29254D126463630018E302 /* CoreLocation.framework */; };
+		2B292550126463720018E302 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B29254F126463720018E302 /* MapKit.framework */; };
+		2B29271D126490D10018E302 /* RsgHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B29271B126490D10018E302 /* RsgHome.m */; };
+		2B29271E126490D10018E302 /* RsgHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B29271C126490D10018E302 /* RsgHome.xib */; };
+		2B2927A312649E4D0018E302 /* hotel .png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2927A212649E4D0018E302 /* hotel .png */; };
+		2B29EFBE1271A8A700C618DE /* TypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B29EFBC1271A8A700C618DE /* TypeViewController.m */; };
+		2B29EFBF1271A8A700C618DE /* TypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B29EFBD1271A8A700C618DE /* TypeViewController.xib */; };
+		2B2E6A92126FFA7400408765 /* RSGAroundMeEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E6A8C126FFA7400408765 /* RSGAroundMeEventView.m */; };
+		2B2E6A93126FFA7400408765 /* RSGAroundMeMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E6A8E126FFA7400408765 /* RSGAroundMeMapController.m */; };
+		2B2E6A94126FFA7400408765 /* RSGAroundMeMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2E6A8F126FFA7400408765 /* RSGAroundMeMapController.xib */; };
+		2B2E6A95126FFA7400408765 /* RSGEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E6A91126FFA7400408765 /* RSGEvent.m */; };
+		2B2E6B5912701B2300408765 /* Hotels.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E6B5812701B2300408765 /* Hotels.m */; };
+		2B4C4AEC1272ABB700090601 /* RSGHotelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4C4AEA1272ABB700090601 /* RSGHotelController.m */; };
+		2B4C4AED1272ABB700090601 /* RSGHotelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B4C4AEB1272ABB700090601 /* RSGHotelController.xib */; };
+		2B556579126EAD3400CB763D /* starOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B556578126EAD3400CB763D /* starOff.png */; };
+		2B63698B125B389000B93A2E /* HotelDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B636989125B389000B93A2E /* HotelDetail.m */; };
+		2B63698C125B389000B93A2E /* HotelDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B63698A125B389000B93A2E /* HotelDetail.xib */; };
+		2B66FB6812754B8C005BB0DE /* HotelList.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2B66FB6712754B8C005BB0DE /* HotelList.sqlite */; };
+		2B66FC17127558B6005BB0DE /* TypeHotelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B66FC15127558B6005BB0DE /* TypeHotelController.m */; };
+		2B66FC18127558B6005BB0DE /* TypeHotelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B66FC16127558B6005BB0DE /* TypeHotelController.xib */; };
+		2B66FC71127561F6005BB0DE /* RestaurantCuisineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B66FC6F127561F6005BB0DE /* RestaurantCuisineController.m */; };
+		2B66FC72127561F6005BB0DE /* RestaurantCuisineController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B66FC70127561F6005BB0DE /* RestaurantCuisineController.xib */; };
+		2B66FCD612756A0E005BB0DE /* RestaurantAroundMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B66FCD412756A0E005BB0DE /* RestaurantAroundMe.m */; };
+		2B6E32751255BAE900435648 /* HotelList.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E32741255BAE900435648 /* HotelList.xcdatamodel */; };
+		2B7AB6A3125C36A800F3AD7A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7AB69E125C36A800F3AD7A /* RootViewController.m */; };
+		2B7AB6DC125C385700F3AD7A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B7AB6DB125C385700F3AD7A /* MainViewController.xib */; };
+		2B9DD0AC126C76D60014A4E2 /* RSGHotellCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9DD0A9126C76D60014A4E2 /* RSGHotellCustomCell.xib */; };
+		2B9DD0AD126C76D60014A4E2 /* RSGHotellCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DD0AB126C76D60014A4E2 /* RSGHotellCustomCell.m */; };
+		2BA5AA2B125A025400514FA8 /* RestaurantDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5AA29125A025400514FA8 /* RestaurantDetailView.m */; };
+		2BA5AA57125A06AF00514FA8 /* RestaurantDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA5AA56125A06AF00514FA8 /* RestaurantDetailView.xib */; };
+		2BABFE5B1278441E00C7773D /* food-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BABFE5A1278441E00C7773D /* food-1.png */; };
+		2BABFE5D1278442600C7773D /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BABFE5C1278442600C7773D /* star.png */; };
+		2BACC51C1254826700A78974 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BACC51B1254826700A78974 /* CoreData.framework */; };
+		2BC8ADEF1276D6AA00EF637C /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC8ADED1276D6AA00EF637C /* WebsiteViewController.m */; };
+		2BC8ADF01276D6AA00EF637C /* WebsiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC8ADEE1276D6AA00EF637C /* WebsiteViewController.xib */; };
+		2BCEB4B71259BD6F00DF5D51 /* Restaurants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEB4B61259BD6F00DF5D51 /* Restaurants.m */; };
+		2BCEB5DB1259DB8C00DF5D51 /* RestaurantSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEB5D91259DB8C00DF5D51 /* RestaurantSearch.m */; };
+		2BDE424B1266BC64004C7AA2 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDE424A1266BC64004C7AA2 /* RateView.m */; };
+		2BE1AFFA1266F929009732A9 /* coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE1AFF71266F929009732A9 /* coffee.png */; };
+		2BE1AFFB1266F929009732A9 /* resturants.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE1AFF81266F929009732A9 /* resturants.png */; };
+		2BE1B02B1266FD48009732A9 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE1B0281266FD48009732A9 /* MapView.xib */; };
+		2BE1B02C1266FD48009732A9 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1B02A1266FD48009732A9 /* MapViewController.m */; };
+		2BE69E2A126D5D2C00D5E258 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE69E29126D5D2C00D5E258 /* icon.png */; };
+		2BE69E31126D5E0500D5E258 /* web.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE69E30126D5E0500D5E258 /* web.png */; };
+		2BE69E33126D5E0B00D5E258 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE69E32126D5E0B00D5E258 /* phone.png */; };
+		2BE69E35126D5E1200D5E258 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE69E34126D5E1200D5E258 /* email.png */; };
+		2BE69EA3126D6A6300D5E258 /* hotelDetail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BE69EA2126D6A6300D5E258 /* hotelDetail.jpg */; };
+		2BE69F3E126D810800D5E258 /* RestaurantSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE69F3D126D810800D5E258 /* RestaurantSearch.xib */; };
+		2BE69FB6126D9C6600D5E258 /* aboutus.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE69FB5126D9C6600D5E258 /* aboutus.png */; };
+		2BE69FB8126D9C6D00D5E258 /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE69FB7126D9C6D00D5E258 /* maps.png */; };
+		2BE6A083126DBED800D5E258 /* RSGRestaurantCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE6A080126DBED800D5E258 /* RSGRestaurantCustomCell.xib */; };
+		2BE6A084126DBED800D5E258 /* RSGRestaurantCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6A082126DBED800D5E258 /* RSGRestaurantCustomCell.m */; };
+		2BE6A109126DCA7900D5E258 /* locate.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE6A108126DCA7900D5E258 /* locate.png */; };
+		2BEC1A841297DAC000E65BDC /* starOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEC1A831297DAC000E65BDC /* starOn.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DubaiHotelDirectoryAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DubaiHotelDirectoryAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DubaiHotelDirectoryAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DubaiHotelDirectoryAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* HotelListAndRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelListAndRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* HotelListAndRestaurant_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelListAndRestaurant_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B29254D126463630018E302 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2B29254F126463720018E302 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2B29271A126490D10018E302 /* RsgHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RsgHome.h; path = Classes/RsgHome.h; sourceTree = "<group>"; };
+		2B29271B126490D10018E302 /* RsgHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RsgHome.m; path = Classes/RsgHome.m; sourceTree = "<group>"; };
+		2B29271C126490D10018E302 /* RsgHome.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RsgHome.xib; path = Classes/RsgHome.xib; sourceTree = "<group>"; };
+		2B2927A212649E4D0018E302 /* hotel .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hotel .png"; sourceTree = "<group>"; };
+		2B29EFBB1271A8A700C618DE /* TypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeViewController.h; sourceTree = "<group>"; };
+		2B29EFBC1271A8A700C618DE /* TypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeViewController.m; sourceTree = "<group>"; };
+		2B29EFBD1271A8A700C618DE /* TypeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeViewController.xib; sourceTree = "<group>"; };
+		2B2E6A8B126FFA7400408765 /* RSGAroundMeEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGAroundMeEventView.h; sourceTree = "<group>"; };
+		2B2E6A8C126FFA7400408765 /* RSGAroundMeEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGAroundMeEventView.m; sourceTree = "<group>"; };
+		2B2E6A8D126FFA7400408765 /* RSGAroundMeMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGAroundMeMapController.h; sourceTree = "<group>"; };
+		2B2E6A8E126FFA7400408765 /* RSGAroundMeMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGAroundMeMapController.m; sourceTree = "<group>"; };
+		2B2E6A8F126FFA7400408765 /* RSGAroundMeMapController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RSGAroundMeMapController.xib; sourceTree = "<group>"; };
+		2B2E6A90126FFA7400408765 /* RSGEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGEvent.h; sourceTree = "<group>"; };
+		2B2E6A91126FFA7400408765 /* RSGEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGEvent.m; sourceTree = "<group>"; };
+		2B2E6B5712701B2300408765 /* Hotels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotels.h; sourceTree = "<group>"; };
+		2B2E6B5812701B2300408765 /* Hotels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hotels.m; sourceTree = "<group>"; };
+		2B4C4AE91272ABB700090601 /* RSGHotelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSGHotelController.h; path = ../RSGHotelController.h; sourceTree = "<group>"; };
+		2B4C4AEA1272ABB700090601 /* RSGHotelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSGHotelController.m; path = ../RSGHotelController.m; sourceTree = "<group>"; };
+		2B4C4AEB1272ABB700090601 /* RSGHotelController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RSGHotelController.xib; path = ../RSGHotelController.xib; sourceTree = "<group>"; };
+		2B556578126EAD3400CB763D /* starOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starOff.png; sourceTree = "<group>"; };
+		2B636988125B389000B93A2E /* HotelDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelDetail.h; sourceTree = "<group>"; };
+		2B636989125B389000B93A2E /* HotelDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelDetail.m; sourceTree = "<group>"; };
+		2B63698A125B389000B93A2E /* HotelDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelDetail.xib; sourceTree = "<group>"; };
+		2B66FB6712754B8C005BB0DE /* HotelList.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = HotelList.sqlite; sourceTree = "<group>"; };
+		2B66FC14127558B6005BB0DE /* TypeHotelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeHotelController.h; sourceTree = "<group>"; };
+		2B66FC15127558B6005BB0DE /* TypeHotelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeHotelController.m; sourceTree = "<group>"; };
+		2B66FC16127558B6005BB0DE /* TypeHotelController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeHotelController.xib; sourceTree = "<group>"; };
+		2B66FC6E127561F6005BB0DE /* RestaurantCuisineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantCuisineController.h; sourceTree = "<group>"; };
+		2B66FC6F127561F6005BB0DE /* RestaurantCuisineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantCuisineController.m; sourceTree = "<group>"; };
+		2B66FC70127561F6005BB0DE /* RestaurantCuisineController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantCuisineController.xib; sourceTree = "<group>"; };
+		2B66FCD312756A0E005BB0DE /* RestaurantAroundMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantAroundMe.h; sourceTree = "<group>"; };
+		2B66FCD412756A0E005BB0DE /* RestaurantAroundMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantAroundMe.m; sourceTree = "<group>"; };
+		2B6E32741255BAE900435648 /* HotelList.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = HotelList.xcdatamodel; sourceTree = "<group>"; };
+		2B7AB69D125C36A800F3AD7A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2B7AB69E125C36A800F3AD7A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2B7AB6DB125C385700F3AD7A /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		2B9DD0A9126C76D60014A4E2 /* RSGHotellCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RSGHotellCustomCell.xib; sourceTree = "<group>"; };
+		2B9DD0AA126C76D60014A4E2 /* RSGHotellCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGHotellCustomCell.h; sourceTree = "<group>"; };
+		2B9DD0AB126C76D60014A4E2 /* RSGHotellCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGHotellCustomCell.m; sourceTree = "<group>"; };
+		2BA5AA28125A025400514FA8 /* RestaurantDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailView.h; sourceTree = "<group>"; };
+		2BA5AA29125A025400514FA8 /* RestaurantDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailView.m; sourceTree = "<group>"; };
+		2BA5AA56125A06AF00514FA8 /* RestaurantDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantDetailView.xib; sourceTree = "<group>"; };
+		2BABFE5A1278441E00C7773D /* food-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "food-1.png"; sourceTree = "<group>"; };
+		2BABFE5C1278442600C7773D /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		2BACC51B1254826700A78974 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2BC8ADEC1276D6AA00EF637C /* WebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsiteViewController.h; sourceTree = "<group>"; };
+		2BC8ADED1276D6AA00EF637C /* WebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsiteViewController.m; sourceTree = "<group>"; };
+		2BC8ADEE1276D6AA00EF637C /* WebsiteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebsiteViewController.xib; sourceTree = "<group>"; };
+		2BCEB4B51259BD6600DF5D51 /* Restaurants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurants.h; sourceTree = "<group>"; };
+		2BCEB4B61259BD6F00DF5D51 /* Restaurants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurants.m; sourceTree = "<group>"; };
+		2BCEB5D81259DB8C00DF5D51 /* RestaurantSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantSearch.h; sourceTree = "<group>"; };
+		2BCEB5D91259DB8C00DF5D51 /* RestaurantSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantSearch.m; sourceTree = "<group>"; };
+		2BDE42491266BC64004C7AA2 /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
+		2BDE424A1266BC64004C7AA2 /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
+		2BE1AFF71266F929009732A9 /* coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee.png; sourceTree = "<group>"; };
+		2BE1AFF81266F929009732A9 /* resturants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resturants.png; sourceTree = "<group>"; };
+		2BE1B0281266FD48009732A9 /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		2BE1B0291266FD48009732A9 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		2BE1B02A1266FD48009732A9 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		2BE69E29126D5D2C00D5E258 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2BE69E30126D5E0500D5E258 /* web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web.png; sourceTree = "<group>"; };
+		2BE69E32126D5E0B00D5E258 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		2BE69E34126D5E1200D5E258 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		2BE69EA2126D6A6300D5E258 /* hotelDetail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hotelDetail.jpg; sourceTree = "<group>"; };
+		2BE69F3D126D810800D5E258 /* RestaurantSearch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantSearch.xib; sourceTree = "<group>"; };
+		2BE69FB5126D9C6600D5E258 /* aboutus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutus.png; sourceTree = "<group>"; };
+		2BE69FB7126D9C6D00D5E258 /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
+		2BE6A080126DBED800D5E258 /* RSGRestaurantCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RSGRestaurantCustomCell.xib; sourceTree = "<group>"; };
+		2BE6A081126DBED800D5E258 /* RSGRestaurantCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGRestaurantCustomCell.h; sourceTree = "<group>"; };
+		2BE6A082126DBED800D5E258 /* RSGRestaurantCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGRestaurantCustomCell.m; sourceTree = "<group>"; };
+		2BE6A108126DCA7900D5E258 /* locate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locate.png; sourceTree = "<group>"; };
+		2BEC1A831297DAC000E65BDC /* starOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starOn.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* IndiaHotelDirectory-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IndiaHotelDirectory-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				2BACC51C1254826700A78974 /* CoreData.framework in Frameworks */,
+				2B29254E126463630018E302 /* CoreLocation.framework in Frameworks */,
+				2B292550126463720018E302 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* DubaiHotelDirectoryAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DubaiHotelDirectoryAppDelegate.m */,
+				2BCEB48E1259B43300DF5D51 /* Restaurant */,
+				2B6E325E1255BAAC00435648 /* HotelClasses */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* HotelListAndRestaurant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* HotelListAndRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				2BC8ADC01276D57400EF637C /* WebsiteView */,
+				2B29EFC01271A8F000C618DE /*  Hotel Type */,
+				2B2E6A83126FFA3500408765 /* Around Me */,
+				2B9DD0A8126C76D60014A4E2 /* Custom Cell */,
+				2B9DD0A7126C76B60014A4E2 /* Home */,
+				2BE1B0271266FD48009732A9 /* Map View */,
+				2B7AB69C125C365800F3AD7A /* Cuisine */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+			);
+			name = HotelListAndRestaurant;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* HotelListAndRestaurant_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B66FB6712754B8C005BB0DE /* HotelList.sqlite */,
+				2B6E32741255BAE900435648 /* HotelList.xcdatamodel */,
+				8D1107310486CEB800E47090 /* IndiaHotelDirectory-Info.plist */,
+				2BF4CB8212657B4900D08DFC /* image */,
+				2B6E30701255A19500435648 /* XIB */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				2BACC51B1254826700A78974 /* CoreData.framework */,
+				2B29254D126463630018E302 /* CoreLocation.framework */,
+				2B29254F126463720018E302 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B29EFC01271A8F000C618DE /*  Hotel Type */ = {
+			isa = PBXGroup;
+			children = (
+				2B66FC14127558B6005BB0DE /* TypeHotelController.h */,
+				2B66FC15127558B6005BB0DE /* TypeHotelController.m */,
+				2B66FC16127558B6005BB0DE /* TypeHotelController.xib */,
+				2B29EFBB1271A8A700C618DE /* TypeViewController.h */,
+				2B29EFBC1271A8A700C618DE /* TypeViewController.m */,
+				2B29EFBD1271A8A700C618DE /* TypeViewController.xib */,
+			);
+			name = " Hotel Type";
+			sourceTree = "<group>";
+		};
+		2B2E6A83126FFA3500408765 /* Around Me */ = {
+			isa = PBXGroup;
+			children = (
+				2B66FCD312756A0E005BB0DE /* RestaurantAroundMe.h */,
+				2B66FCD412756A0E005BB0DE /* RestaurantAroundMe.m */,
+				2B2E6A8B126FFA7400408765 /* RSGAroundMeEventView.h */,
+				2B2E6A8C126FFA7400408765 /* RSGAroundMeEventView.m */,
+				2B2E6A8D126FFA7400408765 /* RSGAroundMeMapController.h */,
+				2B2E6A8E126FFA7400408765 /* RSGAroundMeMapController.m */,
+				2B2E6A8F126FFA7400408765 /* RSGAroundMeMapController.xib */,
+				2B2E6A90126FFA7400408765 /* RSGEvent.h */,
+				2B2E6A91126FFA7400408765 /* RSGEvent.m */,
+			);
+			name = "Around Me";
+			sourceTree = "<group>";
+		};
+		2B6E30701255A19500435648 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+		2B6E325E1255BAAC00435648 /* HotelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2B4C4AE91272ABB700090601 /* RSGHotelController.h */,
+				2B4C4AEA1272ABB700090601 /* RSGHotelController.m */,
+				2B4C4AEB1272ABB700090601 /* RSGHotelController.xib */,
+				2B636988125B389000B93A2E /* HotelDetail.h */,
+				2B636989125B389000B93A2E /* HotelDetail.m */,
+				2B63698A125B389000B93A2E /* HotelDetail.xib */,
+				2B2E6B5712701B2300408765 /* Hotels.h */,
+				2B2E6B5812701B2300408765 /* Hotels.m */,
+			);
+			name = HotelClasses;
+			sourceTree = "<group>";
+		};
+		2B7AB69C125C365800F3AD7A /* Cuisine */ = {
+			isa = PBXGroup;
+			children = (
+				2B66FC6E127561F6005BB0DE /* RestaurantCuisineController.h */,
+				2B66FC6F127561F6005BB0DE /* RestaurantCuisineController.m */,
+				2B66FC70127561F6005BB0DE /* RestaurantCuisineController.xib */,
+				2B7AB69D125C36A800F3AD7A /* RootViewController.h */,
+				2B7AB69E125C36A800F3AD7A /* RootViewController.m */,
+				2B7AB6DB125C385700F3AD7A /* MainViewController.xib */,
+			);
+			name = Cuisine;
+			sourceTree = "<group>";
+		};
+		2B9DD0A7126C76B60014A4E2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2B29271A126490D10018E302 /* RsgHome.h */,
+				2B29271B126490D10018E302 /* RsgHome.m */,
+				2B29271C126490D10018E302 /* RsgHome.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		2B9DD0A8126C76D60014A4E2 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2BE6A080126DBED800D5E258 /* RSGRestaurantCustomCell.xib */,
+				2BE6A081126DBED800D5E258 /* RSGRestaurantCustomCell.h */,
+				2BE6A082126DBED800D5E258 /* RSGRestaurantCustomCell.m */,
+				2BDE42491266BC64004C7AA2 /* RateView.h */,
+				2BDE424A1266BC64004C7AA2 /* RateView.m */,
+				2B9DD0A9126C76D60014A4E2 /* RSGHotellCustomCell.xib */,
+				2B9DD0AA126C76D60014A4E2 /* RSGHotellCustomCell.h */,
+				2B9DD0AB126C76D60014A4E2 /* RSGHotellCustomCell.m */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		2BC8ADC01276D57400EF637C /* WebsiteView */ = {
+			isa = PBXGroup;
+			children = (
+				2BC8ADEC1276D6AA00EF637C /* WebsiteViewController.h */,
+				2BC8ADED1276D6AA00EF637C /* WebsiteViewController.m */,
+				2BC8ADEE1276D6AA00EF637C /* WebsiteViewController.xib */,
+			);
+			name = WebsiteView;
+			sourceTree = "<group>";
+		};
+		2BCEB48E1259B43300DF5D51 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				2BCEB4B51259BD6600DF5D51 /* Restaurants.h */,
+				2BCEB4B61259BD6F00DF5D51 /* Restaurants.m */,
+				2BCEB5D81259DB8C00DF5D51 /* RestaurantSearch.h */,
+				2BCEB5D91259DB8C00DF5D51 /* RestaurantSearch.m */,
+				2BE69F3D126D810800D5E258 /* RestaurantSearch.xib */,
+				2BA5AA28125A025400514FA8 /* RestaurantDetailView.h */,
+				2BA5AA29125A025400514FA8 /* RestaurantDetailView.m */,
+				2BA5AA56125A06AF00514FA8 /* RestaurantDetailView.xib */,
+			);
+			name = Restaurant;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2BE1B0271266FD48009732A9 /* Map View */ = {
+			isa = PBXGroup;
+			children = (
+				2BE1B0281266FD48009732A9 /* MapView.xib */,
+				2BE1B0291266FD48009732A9 /* MapViewController.h */,
+				2BE1B02A1266FD48009732A9 /* MapViewController.m */,
+			);
+			name = "Map View";
+			sourceTree = "<group>";
+		};
+		2BF4CB8212657B4900D08DFC /* image */ = {
+			isa = PBXGroup;
+			children = (
+				2BEC1A831297DAC000E65BDC /* starOn.png */,
+				2BABFE5C1278442600C7773D /* star.png */,
+				2BABFE5A1278441E00C7773D /* food-1.png */,
+				2B556578126EAD3400CB763D /* starOff.png */,
+				2BE6A108126DCA7900D5E258 /* locate.png */,
+				2BE69FB5126D9C6600D5E258 /* aboutus.png */,
+				2BE69FB7126D9C6D00D5E258 /* maps.png */,
+				2BE69E29126D5D2C00D5E258 /* icon.png */,
+				2BE69E32126D5E0B00D5E258 /* phone.png */,
+				2BE69EA2126D6A6300D5E258 /* hotelDetail.jpg */,
+				2BE69E34126D5E1200D5E258 /* email.png */,
+				2BE69E30126D5E0500D5E258 /* web.png */,
+				2BE1AFF71266F929009732A9 /* coffee.png */,
+				2BE1AFF81266F929009732A9 /* resturants.png */,
+				2B2927A212649E4D0018E302 /* hotel .png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* IndiaHotelDirectory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IndiaHotelDirectory" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndiaHotelDirectory;
+			productName = HotelListAndRestaurant;
+			productReference = 1D6058910D05DD3D006BFB54 /* HotelListAndRestaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IndiaHotelDirectory" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* HotelListAndRestaurant */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* IndiaHotelDirectory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				2BA5AA57125A06AF00514FA8 /* RestaurantDetailView.xib in Resources */,
+				2B63698C125B389000B93A2E /* HotelDetail.xib in Resources */,
+				2B7AB6DC125C385700F3AD7A /* MainViewController.xib in Resources */,
+				2B29271E126490D10018E302 /* RsgHome.xib in Resources */,
+				2B2927A312649E4D0018E302 /* hotel .png in Resources */,
+				2BE1AFFA1266F929009732A9 /* coffee.png in Resources */,
+				2BE1AFFB1266F929009732A9 /* resturants.png in Resources */,
+				2BE1B02B1266FD48009732A9 /* MapView.xib in Resources */,
+				2B9DD0AC126C76D60014A4E2 /* RSGHotellCustomCell.xib in Resources */,
+				2BE69E2A126D5D2C00D5E258 /* icon.png in Resources */,
+				2BE69E31126D5E0500D5E258 /* web.png in Resources */,
+				2BE69E33126D5E0B00D5E258 /* phone.png in Resources */,
+				2BE69E35126D5E1200D5E258 /* email.png in Resources */,
+				2BE69EA3126D6A6300D5E258 /* hotelDetail.jpg in Resources */,
+				2BE69F3E126D810800D5E258 /* RestaurantSearch.xib in Resources */,
+				2BE69FB6126D9C6600D5E258 /* aboutus.png in Resources */,
+				2BE69FB8126D9C6D00D5E258 /* maps.png in Resources */,
+				2BE6A083126DBED800D5E258 /* RSGRestaurantCustomCell.xib in Resources */,
+				2BE6A109126DCA7900D5E258 /* locate.png in Resources */,
+				2B556579126EAD3400CB763D /* starOff.png in Resources */,
+				2B2E6A94126FFA7400408765 /* RSGAroundMeMapController.xib in Resources */,
+				2B29EFBF1271A8A700C618DE /* TypeViewController.xib in Resources */,
+				2B4C4AED1272ABB700090601 /* RSGHotelController.xib in Resources */,
+				2B66FB6812754B8C005BB0DE /* HotelList.sqlite in Resources */,
+				2B66FC18127558B6005BB0DE /* TypeHotelController.xib in Resources */,
+				2B66FC72127561F6005BB0DE /* RestaurantCuisineController.xib in Resources */,
+				2BC8ADF01276D6AA00EF637C /* WebsiteViewController.xib in Resources */,
+				2BABFE5B1278441E00C7773D /* food-1.png in Resources */,
+				2BABFE5D1278442600C7773D /* star.png in Resources */,
+				2BEC1A841297DAC000E65BDC /* starOn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DubaiHotelDirectoryAppDelegate.m in Sources */,
+				2B6E32751255BAE900435648 /* HotelList.xcdatamodel in Sources */,
+				2BCEB4B71259BD6F00DF5D51 /* Restaurants.m in Sources */,
+				2BCEB5DB1259DB8C00DF5D51 /* RestaurantSearch.m in Sources */,
+				2BA5AA2B125A025400514FA8 /* RestaurantDetailView.m in Sources */,
+				2B63698B125B389000B93A2E /* HotelDetail.m in Sources */,
+				2B7AB6A3125C36A800F3AD7A /* RootViewController.m in Sources */,
+				2B29271D126490D10018E302 /* RsgHome.m in Sources */,
+				2BDE424B1266BC64004C7AA2 /* RateView.m in Sources */,
+				2BE1B02C1266FD48009732A9 /* MapViewController.m in Sources */,
+				2B9DD0AD126C76D60014A4E2 /* RSGHotellCustomCell.m in Sources */,
+				2BE6A084126DBED800D5E258 /* RSGRestaurantCustomCell.m in Sources */,
+				2B2E6A92126FFA7400408765 /* RSGAroundMeEventView.m in Sources */,
+				2B2E6A93126FFA7400408765 /* RSGAroundMeMapController.m in Sources */,
+				2B2E6A95126FFA7400408765 /* RSGEvent.m in Sources */,
+				2B2E6B5912701B2300408765 /* Hotels.m in Sources */,
+				2B29EFBE1271A8A700C618DE /* TypeViewController.m in Sources */,
+				2B4C4AEC1272ABB700090601 /* RSGHotelController.m in Sources */,
+				2B66FC17127558B6005BB0DE /* TypeHotelController.m in Sources */,
+				2B66FC71127561F6005BB0DE /* RestaurantCuisineController.m in Sources */,
+				2B66FCD612756A0E005BB0DE /* RestaurantAroundMe.m in Sources */,
+				2BC8ADEF1276D6AA00EF637C /* WebsiteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HotelListAndRestaurant_Prefix.pch;
+				INFOPLIST_FILE = "IndiaHotelDirectory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = HotelListAndRestaurant;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HotelListAndRestaurant_Prefix.pch;
+				INFOPLIST_FILE = "IndiaHotelDirectory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = HotelListAndRestaurant;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IndiaHotelDirectory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IndiaHotelDirectory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
